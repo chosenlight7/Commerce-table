@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .table-container {
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        img {
+            width: 40px;
+            height: 40px;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>E-commerce</th>
+                    <th>Icon</th>
+                    <th>Product Name</th>
+                    <th>Category</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Amazon</td>
+                    <td><img src="https://via.placeholder.com/40" alt="Amazon"></td>
+                    <td>Wireless Earbuds</td>
+                    <td>Electronics</td>
+                    <td>
+                        <ul>
+                            <li>Bluetooth 5.0</li>
+                            <li>Noise Cancellation</li>
+                            <li>Water Resistant</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>eBay</td>
+                    <td><img src="https://via.placeholder.com/40" alt="eBay"></td>
+                    <td>Gaming Laptop</td>
+                    <td>Computers</td>
+                    <td>
+                        <ul>
+                            <li>16GB RAM</li>
+                            <li>1TB SSD</li>
+                            <li>RTX 4060 GPU</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>AliExpress</td>
+                    <td><img src="https://via.placeholder.com/40" alt="AliExpress"></td>
+                    <td>Smart Watch</td>
+                    <td>Wearables</td>
+                    <td>
+                        <ul>
+                            <li>Heart Rate Monitor</li>
+                            <li>Step Counter</li>
+                            <li>Long Battery Life</li>
+                        </ul>
+                    </td>
+                </tr>
+                <!-- Add more rows here to reach 15 products -->
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
